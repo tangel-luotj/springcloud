@@ -16,7 +16,7 @@ public class PaymentController {
 
     //新增数据接口
     @PostMapping("/create")
-    public PaymentResult create(Payment payment) {
+    public PaymentResult create(@RequestBody Payment payment) {
         int result = mPaymentService.create(payment);
         if (result == 0) {
             PaymentResult paymentResult = new PaymentResult()
@@ -34,11 +34,11 @@ public class PaymentController {
     }
 
     //请求获取数据
-    @GetMapping("/query")
-    public PaymentResult queryPaymentBy(Long id) {
+    @GetMapping("/query/{id}")
+    public PaymentResult queryPaymentBy(@PathVariable Long id) {
          PaymentResult result = new PaymentResult()
                  .setCode(200)
-                 .setMessage("请求数据成功")
+                 .setMessage("请求数据成功111xxx")
                  .setData(mPaymentService.queryPaymentBy(id));
          return result;
     }
