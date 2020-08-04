@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tangel-springcloud-consumer80" />
         <module name="tangel-springcloud-provider8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud" target="1.8" />
+      <module name="tangel-springcloud-consumer80" target="1.8" />
       <module name="tangel-springcloud-provider8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
