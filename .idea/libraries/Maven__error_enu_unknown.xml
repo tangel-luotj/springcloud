@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: error:enu:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/error/enu/unknown/enu-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/error/enu/unknown/enu-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/error/enu/unknown/enu-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
