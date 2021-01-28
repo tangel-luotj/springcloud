@@ -11,7 +11,6 @@ public class OrderConsumerController {
 
     private final static String PROVIDER_URL = "http://localhost:8001";
 
-
     @Autowired
     private RestTemplate template;
 

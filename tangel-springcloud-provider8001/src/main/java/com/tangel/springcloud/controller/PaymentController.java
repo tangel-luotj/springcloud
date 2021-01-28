@@ -36,11 +36,11 @@ public class PaymentController {
     //请求获取数据
     @GetMapping("/query/{id}")
     public PaymentResult queryPaymentBy(@PathVariable Long id) {
-         PaymentResult result = new PaymentResult()
-                 .setCode(200)
-                 .setMessage("请求数据成功111xxx")
-                 .setData(mPaymentService.queryPaymentBy(id));
-         return result;
+        PaymentResult result = new PaymentResult()
+                .setCode(200)
+                .setMessage("请求数据成功111xxx")
+                .setData(mPaymentService.queryPaymentBy(id));
+        return result;
     }
 
 
