@@ -12,3 +12,8 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:7001/eureka
+
+# 微服务名称
+spring:
+  application:
+    name: tangel-springcloud-consumer80
