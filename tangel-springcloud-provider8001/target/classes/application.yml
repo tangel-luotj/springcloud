@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: tangel-springcloud-payment-servuce
+    name: tangel-springcloud-provider8001
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
@@ -27,3 +27,6 @@ eureka:
       defaultZone: http://localhost:7001/eureka
     register-with-eureka: true
     fetch-registry: true
+
+swagger:
+  base-package: com.tangel.springcloud.controller
