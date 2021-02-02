@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: tangel-springcloud-zuul
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
 
 eureka:
   client:
