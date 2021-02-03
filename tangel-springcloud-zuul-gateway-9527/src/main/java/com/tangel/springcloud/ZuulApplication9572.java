@@ -11,6 +11,7 @@ import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 
 /**
  * 网关管理启动类
+ *
  * @author create by luotj
  * @Date: 2021/1/29 6:12 下午
  **/
@@ -18,15 +19,15 @@ import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 @EnableSwagger2Doc
 @EnableZuulProxy
 @SpringBootApplication
-public class Application {
+public class ZuulApplication9572 {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class);
+        SpringApplication.run(ZuulApplication9572.class);
     }
 
     @RefreshScope
     @ConfigurationProperties("zuul")
-    public ZuulProperties zuulProperties(){
+    public ZuulProperties zuulProperties() {
         return new ZuulProperties();
     }
 
