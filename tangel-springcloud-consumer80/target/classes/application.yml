@@ -17,3 +17,6 @@ eureka:
 spring:
   application:
     name: tangel-springcloud-consumer80
+
+swagger:
+  base-package: com.tangel.springcloud.controller
