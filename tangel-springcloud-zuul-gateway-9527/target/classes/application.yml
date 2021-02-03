@@ -16,3 +16,20 @@ eureka:
   instance:
     instance-id: gateway-9527.com
     prefer-ip-address: true
+
+zuul:
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000

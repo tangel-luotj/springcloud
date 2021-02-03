@@ -1,20 +1,19 @@
-package com.tangel.springcloud;
+package com.tanlgel.springcloud;
 
-import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
- * 提供者
- */
-@EnableSwagger2Doc
+ * @author create by luotj
+ * @Date: 2021/2/3 2:24 下午
+ **/
 @EnableEurekaServer
 @SpringBootApplication
-public class Application8001 {
+public class Eureka7002Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application8001.class, args);
+        SpringApplication.run(Eureka7002Application.class);
     }
 
 }
