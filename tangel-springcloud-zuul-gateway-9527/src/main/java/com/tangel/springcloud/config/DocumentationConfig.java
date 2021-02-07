@@ -1,7 +1,6 @@
 package com.tangel.springcloud.config;
 
 import com.google.common.collect.Lists;
-import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -16,7 +15,6 @@ import java.util.List;
  * @author create by luotj
  * @Date: 2021/1/29 6:43 下午
  **/
-@EnableSwagger2Doc
 @Primary
 @Component
 public class DocumentationConfig implements SwaggerResourcesProvider {
