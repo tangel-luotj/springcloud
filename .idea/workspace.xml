@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea58405-cfc9-48d8-a1af-0b306b684ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/src/main/java/com/tangel/springcloud/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tangel-springcloud-provider8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-provider8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/src/main/java/com/tangel/springcloud/ZuulApplication9572.java" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/src/main/java/com/tangel/springcloud/ZuulApplication9572.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/src/main/java/com/tangel/springcloud/config/DocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/src/main/java/com/tangel/springcloud/config/DocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/target/classes/com/tangel/springcloud/ZuulApplication9572.class" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/target/classes/com/tangel/springcloud/ZuulApplication9572.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/target/classes/com/tangel/springcloud/config/DocumentationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-zuul-gateway-9527/target/classes/com/tangel/springcloud/config/DocumentationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tangel-springcloud-eureka-server7001/src/main/java/com/tangel/springcloud/Eureka7001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-eureka-server7001/src/main/java/com/tangel/springcloud/Eureka7001Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tangel-springcloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tangel-springcloud-eureka-server7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tangel-springcloud-eureka-server7003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tangel-springcloud-eureka-server7003/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication9572">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication8001">
     <configuration name="ConsumerApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tangel-springcloud-consumer80" />
       <extension name="coverage">
@@ -202,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Eureka7003Application" />
+        <item itemvalue="Spring Boot.Eureka7002Application" />
+        <item itemvalue="Spring Boot.ProviderApplication8001" />
         <item itemvalue="Spring Boot.ZuulApplication9572" />
         <item itemvalue="Spring Boot.ConsumerApplication80" />
-        <item itemvalue="Spring Boot.ProviderApplication8001" />
-        <item itemvalue="Spring Boot.Eureka7002Application" />
-        <item itemvalue="Spring Boot.Eureka7003Application" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +218,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -249,7 +252,7 @@
       <workItem from="1611886867384" duration="9729000" />
       <workItem from="1612144893113" duration="31725000" />
       <workItem from="1612405664412" duration="9042000" />
-      <workItem from="1612679899824" duration="2494000" />
+      <workItem from="1612679899824" duration="18668000" />
     </task>
     <servers />
   </component>
@@ -285,54 +288,54 @@
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state x="937" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1002@0.23.1920.1002" timestamp="1611917075073" />
-    <state width="973" height="372" key="GridCell.Tab.0.bottom" timestamp="1612528589367">
+    <state width="876" height="271" key="GridCell.Tab.0.bottom" timestamp="1612777596102">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589367" />
-    <state width="973" height="372" key="GridCell.Tab.0.center" timestamp="1612528589366">
+    <state width="876" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596102" />
+    <state width="876" height="271" key="GridCell.Tab.0.center" timestamp="1612777596101">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589366" />
-    <state width="973" height="372" key="GridCell.Tab.0.left" timestamp="1612528589366">
+    <state width="876" height="271" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596101" />
+    <state width="876" height="271" key="GridCell.Tab.0.left" timestamp="1612777596098">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589366" />
-    <state width="973" height="372" key="GridCell.Tab.0.right" timestamp="1612528589366">
+    <state width="876" height="271" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596098" />
+    <state width="876" height="271" key="GridCell.Tab.0.right" timestamp="1612777596102">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589366" />
-    <state width="973" height="372" key="GridCell.Tab.1.bottom" timestamp="1612528589368">
+    <state width="876" height="271" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596102" />
+    <state width="876" height="271" key="GridCell.Tab.1.bottom" timestamp="1612777596105">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.1.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589368" />
-    <state width="973" height="372" key="GridCell.Tab.1.center" timestamp="1612528589367">
+    <state width="876" height="271" key="GridCell.Tab.1.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596105" />
+    <state width="876" height="271" key="GridCell.Tab.1.center" timestamp="1612777596103">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.1.center/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589367" />
-    <state width="973" height="372" key="GridCell.Tab.1.left" timestamp="1612528589367">
+    <state width="876" height="271" key="GridCell.Tab.1.center/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596103" />
+    <state width="876" height="271" key="GridCell.Tab.1.left" timestamp="1612777596103">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.1.left/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589367" />
-    <state width="973" height="372" key="GridCell.Tab.1.right" timestamp="1612528589367">
+    <state width="876" height="271" key="GridCell.Tab.1.left/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596103" />
+    <state width="876" height="271" key="GridCell.Tab.1.right" timestamp="1612777596104">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.1.right/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589367" />
-    <state width="973" height="372" key="GridCell.Tab.2.bottom" timestamp="1612528589369">
+    <state width="876" height="271" key="GridCell.Tab.1.right/0.23.1920.1002@0.23.1920.1002" timestamp="1612777596104" />
+    <state width="1048" height="372" key="GridCell.Tab.2.bottom" timestamp="1612758556788">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.2.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589369" />
-    <state width="973" height="372" key="GridCell.Tab.2.center" timestamp="1612528589368">
+    <state width="1048" height="372" key="GridCell.Tab.2.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1612758556788" />
+    <state width="1048" height="372" key="GridCell.Tab.2.center" timestamp="1612758556787">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.2.center/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589368" />
-    <state width="973" height="372" key="GridCell.Tab.2.left" timestamp="1612528589368">
+    <state width="1048" height="372" key="GridCell.Tab.2.center/0.23.1920.1002@0.23.1920.1002" timestamp="1612758556787" />
+    <state width="1048" height="372" key="GridCell.Tab.2.left" timestamp="1612758556786">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.2.left/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589368" />
-    <state width="973" height="372" key="GridCell.Tab.2.right" timestamp="1612528589369">
+    <state width="1048" height="372" key="GridCell.Tab.2.left/0.23.1920.1002@0.23.1920.1002" timestamp="1612758556786" />
+    <state width="1048" height="372" key="GridCell.Tab.2.right" timestamp="1612758556787">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="973" height="372" key="GridCell.Tab.2.right/0.23.1920.1002@0.23.1920.1002" timestamp="1612528589369" />
+    <state width="1048" height="372" key="GridCell.Tab.2.right/0.23.1920.1002@0.23.1920.1002" timestamp="1612758556787" />
     <state width="219" height="457" key="HiddenNamespacesPopup" timestamp="1611734260427">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
