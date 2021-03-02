@@ -2,16 +2,11 @@ package com.tangel.springcloud.controller;
 
 import com.tangel.springcloud.entities.Payment;
 import com.tangel.springcloud.entities.PaymentResult;
-import com.tangel.springcloud.service.PaymentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import com.tangel.springcloud.service.PaymentService;
 
 import javax.annotation.Resource;
 

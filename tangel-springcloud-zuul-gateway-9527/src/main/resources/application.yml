@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: tangel-springcloud-zuul
+    name: tangel-com.tangel.springcloud-zuul
   cloud:
     loadbalancer:
       ribbon:

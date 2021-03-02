@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class OrderConsumerController {
 
-    private final static String PROVIDER_URL = "http://localhost:8001";
+    private final static String PROVIDER_URL = "http://TANGEL-SPRINGCLOUD-PROVIDER";
 
     @Autowired
     private RestTemplate template;
