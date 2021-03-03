@@ -7,6 +7,8 @@ eureka:
     lease-expiration-duration-in-seconds: 2
     # 标记，表示在猜测主机名时，服务器的IP地址应与操作系统报告的主机名相对应。
     prefer-ip-address: true             # Flag to say that, when guessing a hostname, the IP address of the server should be used in prference to the hostname reported by the OS.
+    #设置状态实例显示名称（eureka 后台小配置）
+    instance-id: provider-payment8001
   client:
     register-with-eureka: true
     fetch-registry: true
