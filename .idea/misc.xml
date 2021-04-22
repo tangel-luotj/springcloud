@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/tangel-springcloud-eureka-server7001/pom.xml" />
         <option value="$PROJECT_DIR$/tangel-springcloud-provider8002/pom.xml" />
         <option value="$PROJECT_DIR$/tangel-springcloud-eureka-server7002/pom.xml" />
+        <option value="$PROJECT_DIR$/tangel-springcloud-consumer-consul8007/pom.xml" />
+        <option value="$PROJECT_DIR$/tangel-springcloud-provider-consul8006/pom.xml" />
       </list>
     </option>
   </component>
