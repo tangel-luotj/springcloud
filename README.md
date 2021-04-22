@@ -1,5 +1,7 @@
 # com.tangel.springcloud 学习 - 难点整合
 
+1、Eureka自我保护机制的理解：属于正常现象，即心跳检测检测当前服务是否不可用，不可用的情况下不会进行立刻清除（某时刻某一个微服务不可用了，Eureka不会立刻清理，依旧会对该微服务的信息进行保存）
+
 #### 安装consul
    * 下载安装consul`https://www.consul.io/downloads`
    * 安装完成会有一个consul.exe的启动文件,启动完成之后在exe文件中输入命令`consul agent -dev`启动成功

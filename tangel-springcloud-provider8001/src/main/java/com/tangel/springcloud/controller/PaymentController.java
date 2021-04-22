@@ -5,16 +5,16 @@ import com.tangel.springcloud.entities.PaymentResult;
 import com.tangel.springcloud.service.PaymentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
+@Slf4j
 @Api(tags = "01. 支付模块")
 @RestController
 @RequestMapping("/api/payment")
@@ -22,6 +22,8 @@ public class PaymentController {
 
     @Resource
     private PaymentService mPaymentService;
+    @Resource
+    private DiscoveryClient discoveryClient;
 
     @Value("${server.port}")
     private String serverPort;
@@ -55,6 +57,20 @@ public class PaymentController {
                 .setMessage("请求数据成功111xxx,serverPort:" + serverPort)
                 .setData(mPaymentService.queryPaymentBy(id));
         return result;
+    }
+
+    @ApiOperation("服务发现")
+    @GetMapping("/payment/discovery")
+    public Object discovery(){
+        List<String> services = discoveryClient.getServices();
+        services.forEach(it -> {
+            log.info("element:{}", it);
+        });
+        List<ServiceInstance> instances = discoveryClient.getInstances("TANGEL-SPRINGCLOUD-PROVIDER");
+        instances.forEach(it ->{
+            log.info("host:{}, instantId:{}, port:{}", it.getHost(), it.getInstanceId(), it.getPort());
+        });
+        return this.discoveryClient;
     }
 
 
