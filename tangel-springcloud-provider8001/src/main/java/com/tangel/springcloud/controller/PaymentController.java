@@ -73,5 +73,10 @@ public class PaymentController {
         return this.discoveryClient;
     }
 
+    @ApiOperation("测试负载均衡")
+    @GetMapping("/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;
+    }
 
 }

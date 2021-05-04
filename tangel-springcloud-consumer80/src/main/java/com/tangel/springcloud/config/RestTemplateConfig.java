@@ -8,8 +8,10 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class RestTemplateConfig {
 
+    /**
+     * 负载均衡注解: 默认是轮训算法
+     */
     @Bean
-    @LoadBalanced
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
