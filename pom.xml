@@ -20,6 +20,7 @@
         <module>tangel-springcloud-eureka-server7003</module>
         <module>tangel-springcloud-provider8002</module>
         <module>tangel-springcloud-consumer-consul8007</module>
+        <module>tangel-springcloud-openfeign-order8008</module>
     </modules>
 
     <!-- 统一管理jar包版本号 -->

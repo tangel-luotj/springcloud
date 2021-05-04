@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @Slf4j
 @Api(tags = "01. 支付模块")
@@ -76,6 +77,17 @@ public class PaymentController {
     @ApiOperation("测试负载均衡")
     @GetMapping("/payment/lb")
     public String getPaymentLB() {
+        return serverPort;
+    }
+
+
+    @GetMapping("/timeout/{id}")
+    public String paymentTimeout(@PathVariable Long id) {
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
         return serverPort;
     }
 
