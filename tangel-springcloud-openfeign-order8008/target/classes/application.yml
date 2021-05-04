@@ -1,0 +1,20 @@
+server:
+  port: 8008
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka,http://localhost:7003/eureka
+
+# 设置Feign客户端超时时间-默认1秒请求超时(OpenFeign默认支持ribbon)
+ribbon:
+# 指的是连接建立所消耗的时间，适用于网络状况良好的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+# 指的是连接建立后，从服务器读取到可用资源所用的时间
+  ConnectTime: 5000
+
+logging:
+  level:
+    # feign以什么级别监控哪个接口
+    com.tangel.springlcloud.service.OrderFeignService: debug
