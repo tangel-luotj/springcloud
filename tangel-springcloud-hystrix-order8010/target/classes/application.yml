@@ -1,0 +1,28 @@
+server:
+  port: 8010
+
+eureka:
+  instance:
+    instance-id: tangel-springcloud-hystrix-order8010
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1
+    hostname: tangel-springcloud-hystrix-order8010
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka,http://localhost:7003/eureka
+
+# 微服务名称
+spring:
+  application:
+    name: tangel-springcloud-hystrix-order
+
+ribbon:
+  ReadTimeout: 5000
+  ConnectTime: 5000
+
+logging:
+  level:
+    # feign以什么级别监控哪个接口
+    com.tangel.springlcloud.service.OrderHystrixService: debug

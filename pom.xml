@@ -21,6 +21,8 @@
         <module>tangel-springcloud-provider8002</module>
         <module>tangel-springcloud-consumer-consul8007</module>
         <module>tangel-springcloud-openfeign-order8008</module>
+        <module>tangel-springcloud-hystrix-order8010</module>
+        <module>tangel-springcloud-hystrix-payment8009</module>
     </modules>
 
     <!-- 统一管理jar包版本号 -->
