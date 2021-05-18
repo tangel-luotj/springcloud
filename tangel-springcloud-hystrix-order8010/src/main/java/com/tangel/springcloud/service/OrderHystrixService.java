@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @date : 2021:05:05 16:43
  */
 @Service
-@FeignClient(value = "TANGEL-SPRINGCLOUD-HYSTRIX")
+@FeignClient(value = "TANGEL-SPRINGCLOUD-HYSTRIX", fallback = OrderHystrixServiceImpl.class)
 public interface OrderHystrixService {
 
     @RequestMapping(value = "/api/hystrix/ok/{id}", method = RequestMethod.GET)

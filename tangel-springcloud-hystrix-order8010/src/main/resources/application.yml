@@ -26,3 +26,8 @@ logging:
   level:
     # feign以什么级别监控哪个接口
     com.tangel.springlcloud.service.OrderHystrixService: debug
+
+# 客户端开启hystrix服务降级配置，默认false
+feign:
+  hystrix:
+    enabled: true
