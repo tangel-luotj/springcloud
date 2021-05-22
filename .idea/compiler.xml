@@ -7,19 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tangel-springcloud-hystrix-dashboard8011" />
+        <module name="tangel-springcloud-eureka-server7002" />
         <module name="tangel-springcloud-consumer-consul8007" />
-        <module name="tangel-springcloud-hystrix-order8010" />
+        <module name="tangel-springcloud-hystrix-payment8009" />
         <module name="cloud-api-commons" />
         <module name="tangel-springcloud-provider8002" />
         <module name="tangel-springcloud-consumer80" />
         <module name="tangel-springcloud-eureka-server7003" />
-        <module name="tangel-springcloud-eureka-server7002" />
+        <module name="tangel-springcloud-openfeign-order8008" />
         <module name="tangel-springcloud-eureka-server7001" />
         <module name="tangel-springcloud-zuul-gateway-9527" />
         <module name="tangel-springcloud-provider-consul8006" />
-        <module name="tangel-springcloud-hystrix-payment8009" />
         <module name="tangel-com.tangel.springcloud-eureka-server7002" />
-        <module name="tangel-springcloud-openfeign-order8008" />
+        <module name="tangel-springcloud-hystrix-order8010" />
         <module name="tangel-com.tangel.springcloud-zuul-gateway-9527" />
         <module name="tangel-springcloud-provider8001" />
       </profile>
@@ -34,6 +35,7 @@
       <module name="tangel-springcloud-eureka-server7001" target="1.8" />
       <module name="tangel-springcloud-eureka-server7002" target="1.8" />
       <module name="tangel-springcloud-eureka-server7003" target="1.8" />
+      <module name="tangel-springcloud-hystrix-dashboard8011" target="1.8" />
       <module name="tangel-springcloud-hystrix-order8010" target="1.8" />
       <module name="tangel-springcloud-hystrix-payment8009" target="1.8" />
       <module name="tangel-springcloud-openfeign-order8008" target="1.8" />
