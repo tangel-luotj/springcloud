@@ -23,6 +23,7 @@
         <module>tangel-springcloud-openfeign-order8008</module>
         <module>tangel-springcloud-hystrix-order8010</module>
         <module>tangel-springcloud-hystrix-payment8009</module>
+        <module>tangel-springcloud-hystrix-dashboard8011</module>
     </modules>
 
     <!-- 统一管理jar包版本号 -->

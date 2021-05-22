@@ -27,3 +27,10 @@
     3、轮训算法原理    请求次数的 % 服务提供者服务总数 = 余数(下标index)      
                       serivice.get(index)获取对应的服务，每次重启的时候重新开始计数获取下标
 ```
+
+``` java
+   hystrtix开启监控台,新增坐标 spring-cloud-starter-netflix-hystrix-dashboard
+   控制台服务器启动后访问地址:http://localhost:port/hystrix
+   查看服务器监控情况的路径http://localhost:port/test.stream
+   test.stream 则是ServletRegistrationBean中初始化填写UrlMappings的值
+```
